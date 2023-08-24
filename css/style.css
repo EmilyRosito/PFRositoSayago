@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* Importación de la fuente */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+/* Reset general */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER & FOOTER */
+.bg-primary {
+  background-color: #a1b79c !important;
+  padding: 2rem;
+}
+.bg-primary div div div h2 {
+  color: rgb(255, 255, 255);
+}
+.bg-primary div div div ul {
+  display: flex;
+  list-style: none;
+}
+.bg-primary div div div ul li {
+  margin-left: 10px;
+}
+.bg-primary div div div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.col2 {
+  width: 500px;
+}
+
+.mr-2 {
+  width: 40px;
+}
+
+/* MAIN */
+.mt-5 {
+  margin-top: 5rem !important;
+}
+
+section div div div {
+  margin-bottom: 1.5rem;
+}
+section div div div img {
+  max-width: 100%;
+  height: auto;
+}
+section div div div img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  text-align: center !important;
+}
+
+.text-muted {
+  color: #f58462 !important;
+}
+
+section nav ul {
+  display: flex;
+  justify-content: center;
+}
+section nav ul a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: rgb(190, 187, 187);
+}
+
+/*# sourceMappingURL=style.css.map */
